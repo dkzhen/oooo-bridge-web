@@ -14,7 +14,7 @@
     "preview": "vite preview"
   },
   "overrides": {
-  "@mysten/sui": "0.X.Y" 
+  "@mysten/sui": "^0.3.2" 
 }, 
 
   "dependencies": {
