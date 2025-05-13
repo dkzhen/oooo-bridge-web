@@ -95,7 +95,9 @@ export default defineConfig(({ mode }) => {
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'src')
+        '@': path.resolve(__dirname, 'src'), 
+        '@mysten/sui': path.resolve(__dirname, 'node_modules/@mysten/sui'),
+    
       },
       extensions: [
         // add livenet/testnet extension to suitable for multi-env package
