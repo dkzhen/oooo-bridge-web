@@ -165,7 +165,7 @@ export const BITLAYER_LIVENET = {
 export const BOB_TESTNET = {
   chainId: '0x6f',
   chainName: 'BOB Testnet',
-  rpcUrls: ['https://bob-mainnet.public.blastapi.io'],
+  rpcUrls: ['https://bob-sepolia.rpc.gobob.xyz'],
   nativeCurrency: {
     name: 'ETH',
     symbol: 'ETH',
