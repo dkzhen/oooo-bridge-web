@@ -10,13 +10,12 @@
     "build": "vue-tsc && vite build",
     "build:testnet": "vue-tsc && vite build --mode testnet",
     "build:livenet": "vue-tsc && vite build --mode livenet",
-    "build:analyze": "vue-tsc && vite build  -- analyze",
+    "build:analyze": "vue-tsc && vite build -- analyze",
     "preview": "vite preview"
   },
   "overrides": {
-  "@mysten/sui": "^0.3.2" 
-}, 
-
+    "@mysten/sui": "^1.12.0"
+  },
   "dependencies": {
     "@aptos-labs/ts-sdk": "^1.23.0",
     "@aptos-labs/wallet-standard": "^0.1.0",
@@ -81,7 +80,6 @@
     "typescript": "5.6.3",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-define-options": "^1.4.2",
-    
     "vite": "^5.0.0",
     "vite-plugin-html": "^3.2.2",
     "vue-tsc": "^2.2.4"
